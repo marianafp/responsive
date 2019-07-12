@@ -99,13 +99,75 @@ textarea {
 html {
   background-color: #FFF;
   height: 100%;
+  font-size: 16px;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #FFA781;
+  background-size: cover;
+  font-family: 'Hind', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+header {
+  background-color: #FFA781;
+  border: 2px;
+  border-color: white;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  display: flex;
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.125rem;
+  height: 50px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+       }
+
+footer {
+  background-color:#FFA781;
+  border: 2px;
+  border-color: white;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  display: flex;
+  font-family: 'Hind', sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  height: 50px;
+  width: 100%;
+  text-align: left;
+
+}
+
+main {
+  background-color:#FFA781;
+  border: 2px;
+  border-color: white;
+  border-bottom-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Hind', sans-serif;
+  font-size: 1.25em;
+  height: 250px;
+  width: 100%;
+  padding: 5px;
+}
+
+main p {
+color: #5B0E2D;
+text-align: center;
+
 }
 
 .wrapper {
@@ -113,26 +175,23 @@ body {
   display: flex;
   font-weight: 700;
   justify-content: space-between;
-}
+  align-items: center;
+  flex-flow: row wrap;
+  }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
     align-items: center;
-    background: #5D535E;
+    background: #FFA781;
     display: flex;
-    color: #EC96a4;
-    font-family: font-family: 'Arapey', serif;
-    font-size: 1.25em;
+    color: #5B0E2D;
+    font-family: 'Hind', sans-serif;
+    font-size: 1em;
     justify-content: center;
     line-height: 1.5em;
-    border-radius: 5px;
-    border-left-color: gray;
-    border-left-style: solid;
-    border-left-width:thick;
-
+    border-radius: 0px;
     width: 30%;
     height: 300px;
-    padding: 5px 10px 5px 10px;
     text-align: center;
 
 }
