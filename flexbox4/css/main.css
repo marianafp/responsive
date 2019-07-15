@@ -103,7 +103,7 @@ html {
 }
 
 body {
-  background-color: #FFA781;
+  background-color: #2A3166;
   background-size: cover;
   font-family: 'Hind', sans-serif;
   padding: 2em;
@@ -117,14 +117,12 @@ body {
 }
 
 header {
-  background-color: #FFA781;
+  background-color:#2A3166;
   border: 2px;
-  border-color: white;
+  border-color: #2A3166;
   border-top-style: solid;
   border-bottom-style: solid;
   display: flex;
-  font-family: 'Great Vibes', cursive;
-  font-size: 3.125rem;
   height: 50px;
   width: 100%;
   justify-content: flex-start;
@@ -132,10 +130,20 @@ header {
   padding: 15px;
        }
 
+header h1 {
+  color: #FFF;
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.125rem;
+          }
+
+header span {
+color: #EE7879
+            }
+
 footer {
-  background-color:#FFA781;
+  background-color:#2A3166;
   border: 2px;
-  border-color: white;
+  border-color: #2A3166;
   border-top-style: solid;
   border-bottom-style: solid;
   display: flex;
@@ -149,10 +157,14 @@ footer {
 
 }
 
+footer p {
+  color: #EE7879;
+}
+
 main {
-  background-color:#FFA781;
+  background-color:#2A3166;
   border: 2px;
-  border-color: white;
+  border-color: #2A3166;
   border-bottom-style: solid;
   display: flex;
   justify-content: center;
@@ -165,10 +177,13 @@ main {
 }
 
 main p {
-color: #5B0E2D;
+color: #FFF;
 text-align: center;
+       }
 
-}
+main span {
+  color: #EE7879
+      }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
@@ -182,20 +197,30 @@ text-align: center;
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
     align-items: center;
-    background: #FFA781;
+    background: #F4ABAA;
     display: flex;
-    color: #5B0E2D;
-    font-family: 'Hind', sans-serif;
-    font-size: 1em;
     justify-content: center;
     line-height: 1.5em;
-    border-radius: 0px;
+    border-radius: 5px;
     width: 30%;
     height: 300px;
     text-align: center;
+  padding: 0, 2px, 0, 200px;
 
 }
 
+.div-2, {
+        background: #CAE7DF;
+    }
+
+.div-1 p, .div-2 p, .div-3 p {
+  display: flex;
+  font-family: 'Hind', sans-serif;
+  font-size: 1em;
+  font-size: 1em;
+  color: #2A3166;
+  padding: 0, 10px, 0, 10px;
+}
 
 /* ==========================================================================
    Helper classes
