@@ -18,11 +18,11 @@ body {
 
 .container{
 	max-width: 1200px;
-	margin: 0 auto;
 	display: flex;
   justify-content: center;
   align-items: center;
 	flex-flow: row wrap;
+	width: 90%;
 }
 
 h1,
@@ -202,11 +202,11 @@ footer span {
 	}
 
 	header nav {
-		width: 40%;
+		width: 50%;
 	}
 
 	header nav ul {
 		display: flex;
-		justify-content: center;
+		justify-content: space-between;
 	}
 }/*end 1200 media query*/
